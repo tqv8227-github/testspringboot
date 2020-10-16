@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/tuyen"
+    #driver-class: org.hibernate.dialect.PostgreSQLDialect
+    username: tuyen
+    password: tuyen
+
